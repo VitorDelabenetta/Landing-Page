@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #160e07 16.62%, #130545 85.61%);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.header-image {
+    height: 68px;
+    border: none;
+    border-radius: 10px;
+    padding: 1px;
+}
+
+.header-image:hover {
+    background-color: #f9f4ee;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.header-menu-item-main {
+    font-family: 'Sarala', sans-serif;
+    color: #f9f4ee;
+    background-color: #9b1b1b;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 15px 10px 15px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.header-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #160e07;
+    background-color: #fff2e7;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.header-menu-item:hover {
+    color: #fff2e7;
+    background-color: #9b1b1b;
+}
+
+.content {
+    border-top: 0.5px solid #fff2e7;
+    margin-bottom: 48px;
+}
+
+.content-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-main-section {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.content-main-section-tittle {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #fff2e7;
+}
+
+.content-main-section-subtittle {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff2e7;
+}
+
+.content-main-section-button {
+    background-color: #ecd6c4;
+    width: 200px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2f2325;
+}
+
+.content-main-section-button:hover {
+    background-color: #9b1b1b;
+    color: #f9f4ee;
+}
+
+.content-main-section-image {
+    width: 450px;
+    margin-top: 25px;
+}
+
+.content-secondary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.content-secondary-tittle {
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff2e7;
+    margin-bottom: 16px;
+}
+
+.content-secondary-text {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ecd6c4;
+}
+
+
+.footer {
+    border-top: 0.4px solid #f9f4ee;
+    font-family: 'Sarala', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    text-align: justify;
+    gap: 35px;
+    color: #f9f4ee;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 400px;
+}
+
+.footer-left-tittle {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.footer-left-text {
+    width: 350px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.footer-left-button {
+    color: #160e07;
+    padding: 10px 20px 10px 20px;
+    background-color: #f9f4ee;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer-left-button:hover {
+    background-color: #9b1b1b;
+    color: #f9f4ee;
+}
+
+.footer-right {
+    height: 500x;
+    width: 400px;
+}
+
+.footer-right-tittle {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.footer-right-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.footer-right-navigation-image {
+    height: 50px;
+    background-color: #ecd6c4;
+    border: none;
+    border-radius: 10px;
+}
+
+.footer-right-navigation-image:hover {
+    background-color: #f9f4ee;
+}
+
+.footer-right-navigation-text {
+    color: #f9f4ee;
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
