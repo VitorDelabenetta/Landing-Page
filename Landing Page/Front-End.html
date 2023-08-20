@@ -1,56 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Landing Page - Aprendendo Programação</title>
+    <title>Landing Page</title>
+    <link rel="icon" type="image/x-icon" href="./Image/Wolf_Icon.ico">
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, inicial-scale=1.0"/>
     <meta name="description" content="Página de aprendizado para o básico em HTML e CSS, utilizando a prática como forma de estudo.">
-    <link rel="stylesheet" type="text/css" href="/Style.css">
+    <link rel="stylesheet" type="text/css" href="Style.css">
 </head>
 <body>
-    <header class="header">
-        <img class="header-image" src="/Rodapé.svg" alt="Logo de Aprendizado">
-        <nav class="header-menu">
-            <a class="header-menu-item-main" href="#">Menu Inicial</a>
-            <a class="header-menu-item" href="https://youtu.be/llF6vD-RljE" target="_blank">Material Fonte</a>
-            <a class="header-menu-item" href="mailto:delabenettag@gmail.com" target="_blank">Contactar</a>
-            <a class="header-menu-item" href="https://github.com/VitorDelabenetta" target="_blank">Open Source</a>
-        </nav>
+    <header>
+        <div class="header">
+            <img class="logo" src="./Image/Logo.png" alt="Logo da página">
+            <nav class="navbar">
+                <a class="first-element" href="#">Menu Inicial</a>
+                <a href="https://youtu.be/llF6vD-RljE" target="_blank">Referência</a>
+                <a href="mailto:delabenettag@gmail.com" target="_blank">Contacte-me</a>
+                <a href="https://github.com/VitorDelabenetta/Landing-Page" target="_blank">Código Fonte</a>
+            </nav>
+        </div>
     </header>
-
     <main class="content">
-        <section class="content-main">
-            <div class="content-main-section">
-                <h1 class="content-main-section-tittle">Landing Page</h1>
-                <h2 class="content-main-section-subtittle">Essa é a página de apresentação dos aprendizados iniciais em HTML e CSS.</h2>
-                <a href="#" target="_blank"><button class="content-main-section-button">Veja os detalhes</button></a> <!--Direciona para uma postagem no Instagram-->
+        <section class="primary-section">
+            <div class="main">
+                <h1 class="title">Landing Page</h1>
+                <h2 class="description">Página simples produzida com <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheet">CSS</abbr> para semântica e estilização.</h2>
+                <button class="btn"><a href="#" target="_blank">Veja os detalhes</a></button> <!--Direciona para uma postagem -->
             </div>
-            <img class="content-main-section-image" src="/Image.svg" alt="Imagem Ilustrativa">
+            <img class="image" src="./Image/Picture.svg" alt="Ilustração de um homem sentado na frente de um computador">
         </section>
-
-        <section class="content-secondary">
-            <h3 class="content-secondary-tittle">Como foi produzida?</h3>
-            <p class="content-secondary-text">Seguindo um tutorial no YouTube do canal da <strong>Rafaella Ballerini</strong>, fui fazendo o código do zero enquanto estudava as propriedades apresentadas.</p>
-            <p class="content-secondary-text">Dessa forma, pude realizar alterações enquanto acompanhava alguém mais experiente discorrendo sobre o projeto - de forma bem explicativa.</p>
-            <p class="content-secondary-text">Também consegui atualizar alguns aprendizados que estavam pendentes e assimilar conteúdos com o qual já tive contato.</p>
+        <section class="secondary-section">
+            <h3 class="title">Como foi produzida?</h3>
+            <p class="paragraph">
+                Seguindo um tutorial no YouTube do canal da <strong>Rafaella Ballerini</strong>, fui fazendo o código do zero enquanto estudava as propriedades apresentadas.<br>
+                Dessa forma, pude realizar alterações enquanto acompanhava alguém mais experiente discorrendo sobre o assunto - de forma bem explicativa. <br>
+                Também consegui atualizar alguns aprendizados que estavam pendentes e assimilar conteúdos com o qual já tive contato.
+                <br>
+                <p id="att">Ps.: Também houve uma atualização posterior neste projeto, onde foram aplicados os aprendizados obtidos no intermédio de um ano.</p>
+            </p>
         </section>
     </main>
-
     <footer class="footer">
-        <div class="footer-left">
-            <p class="footer-left-tittle">Landing Page</p>
-            <p class="footer-left-text">Uma amostra da organização e estilização no início dos aprendizados dentro do mundo da programação.</p>
-            <a href="#" target="_blank"><button class="footer-left-button">Landing Page</button></a>
+        
+        <div class="left">
+            <h4 class="title">Landing Page</h4>
+            <p class="text">Uma amostra da estruturação semântica e estilização no início dos aprendizados dentro do mundo da programação.</p>
+            <button class="btn"> <a href="#" target="_blank">Landing Page</a> </button>
         </div>
-    <section class="footer-right">
-        <p class="footer-right-tittle">Contatos</p>
-        <nav class="footer-right-navigation">
-            <a href="https://github.com/VitorDelabenetta" target="_blank"><img class="footer-right-navigation-image" src="/GitHub Logo.svg" class="img-fluid"></a>
-            <p class="footer-right-navigation-text">Perfil do GitHub</p>
-            <a href="https://www.linkedin.com/in/gabriel-d-444a06181" target="_blank"><img class="footer-right-navigation-image" src="/LinkedIn Logo.svg" class="img-fluid"></a>
-            <p class="footer-right-navigation-text">Perfil do LinkedIn</p>
-        </nav>
-    </section>
+
+
+        <div class="right">
+            <h4 class="title">Contatos</h4>
+            <div>
+                <figure class="icon">
+                    <a href="https://github.com/VitorDelabenetta" target="_blank"><img src="./Image/GitHub.svg" alt="Ícone do Github"></a>
+                    <figcaption>Perfil do Github</figcaption>
+                </figure>
+                <figure class="icon">
+                    <a href="https://www.linkedin.com/in/gabriel-d-444a06181" target="_blank"><img src="./Image/LinkedIn.svg" alt="Ícone do LinkedIn"></a>
+                    <figcaption>Perfil do LinkedIn</figcaption>
+                </figure>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
